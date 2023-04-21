@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>PlaceholderPageName</title>
+    <style>
+
+      .HolyGrail {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      }
+
+      .HolyGrail-body {
+      display: flex;
+      flex: 1;
+      }
+
+      .HolyGrail-content {
+      flex: 1;
+      }
+
+      .img-in-txt {
+      float: left;
+
+      }
+
+      .HolyGrail-nav, .HolyGrail-ads {
+      /* 12em is the width of the columns */
+      flex: 0 0 12em;
+      }
+
+      .HolyGrail-nav {
+      /* put the nav on the left */
+      order: -1;
+      }
+
+		.bg {
+			background: url("./images/ToussaintTownDetail.png");
+			background-position: center top;
+			height:360px;
+			width: 100%;
+		}
+		
+		.logo {
+			height: 180px;
+		}
+
+    </style>
+  </head>
+
+<!-- End of CSS defs, start of page -->
+
+  <body class="HolyGrail">
+    <header>
+      	<div class="bg">
+      <img class="logo" src="./images/OwenL_EchoLogo_V03.png" alt="">
+      </div>
+    </header>
+
+    <div class="HolyGrail-body">
+      <main class="HolyGrail-content">
+        <p> Hi! My name is Owen Lacey, and I'm an IMGD and Professional
+        Writing double major at Worcester Polytechnic Institute. This site
+        is a collection of the art, games, and other things I've made for
+        classes, or on my own. </p>
+
+        <p>Class projects are labelled on the left with their class number,
+        and each page has a short description of the class. Other works are
+        collected under named links beneath the classes.</p>
+
+	<img class="text" src="./images/HousePainting.png" width="500px" alt="">
+
+        <p>This is a digital painting from IMGD 2700. The subject is a
+          building from The Witcher 3, Corvo Bianco Manor.</p>
+
+        <p>This site is still a work in progress, but it contains all of
+        the important works that I have.</p>
+
+      </main>
+
+      <nav class="HolyGrail-nav">
+        <h1>Class Links</h1>
+        <ul>
+			<li><a href="1002/index.html">IMGD 1002</a></li>
+			<li><a href="2400/index.html">IMGD 2400</a></li>
+			<li><a href="3400/index.html">IMGD 3400</a></li>
+			<li><a href="2700/index.html">IMGD 2700</a></li>
+			<li><a href="2900/index.html">IMGD 2900</a></li>
+			<li><a href="3100/index.html">IMGD 3100</a></li>
+			<li><a href="MiscArt/index.html">Other Artwork</a></li>
+			<li><a href="Minecraft/index.html">Minecraft Art</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <footer>
+    </footer>
+  </body>
+</html>
