@@ -1,3 +1,37 @@
+body {
+	background-color: #ACACAC;
+}
+
+.spacer{
+	padding: 5px;
+}
+
+.CenteredHeader {
+	display: flex;
+	justify-content: space-around;
+}
+
+.backButton {
+	padding: 10px;
+	background-color: #C07172;
+	font-size: 15px;
+	
+}
+
+.menu {
+	border: 2px solid black;
+	background-color: #B4B4B4;
+	width: 150px;
+	height: 40px;
+}
+
+.nav {
+	border: 2px solid black;
+	background-color: #B4B4B4;
+	width: 150px;
+	height: 40px;
+}
+
 .HolyGrail {
 	display: flex;
 	min-height: 100vh;
@@ -13,6 +47,7 @@
 	flex: 1;
 	padding: 10px;
 	font-size: 24px;
+	background-color: #E1E1E1;
 }
 
 .img-in-txt {
@@ -24,6 +59,7 @@
 	flex: 0 0 12em;
 	border-left: 5px solid black;
 	padding: 8px;
+	background-color: #BB5A5C
 }
 
 .HolyGrail-nav {
@@ -37,6 +73,7 @@
 	align-items: center;
 	justify-content: space-around;
 	height: 50px;
+	border-bottom: 5px solid black;
 }
 
 .bg {
@@ -61,3 +98,67 @@
 	width: 150px;
 	border: 3px solid black
 }
+
+.title {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+/* Gallery Formatting and styles for the events page */
+.gallery {
+    	display: grid;
+		grid-template-columns: repeat(8, 1fr);
+    	grid-template-rows: repeat(8, 5vw);
+    	grid-gap: 15px;
+		}
+		
+		.gallery__img {
+    		width: 100%;
+   			height: 100%;
+    		object-fit: cover;
+			border: 5px solid green;
+		}
+
+.gridLabel{
+	display: flex;
+	justify-content: space-around;
+	
+}
+		
+		.gallery__item--1 {
+  			grid-column-start: 1;
+  			grid-column-end: 5;
+  			grid-row-start: 1;
+  			grid-row-end: 5;
+		}
+		.gallery__item--2 {
+  			grid-column-start: 5;
+  			grid-column-end: 10;
+  			grid-row-start: 1;
+  			grid-row-end: 5;
+		}
+		.gallery__item--3 {
+  			grid-column-start: 1;
+  			grid-column-end: 5;
+  			grid-row-start: 5;
+  			grid-row-end: 10;
+		}
+		.gallery__item--4 {
+  			grid-column-start: 5;
+  			grid-column-end: 10;
+  			grid-row-start: 5;
+  			grid-row-end: 10;
+		}
+		.gallery__item--5 {
+  			grid-column-start: 1;
+  			grid-column-end: 5;
+  			grid-row-start: 10;
+  			grid-row-end: 15;
+		}
+		.gallery__item--6 {
+  			grid-column-start: 5;
+  			grid-column-end: 10;
+  			grid-row-start: 10;
+  			grid-row-end: 15;
+		}
